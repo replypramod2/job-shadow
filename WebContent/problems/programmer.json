@@ -1,0 +1,99 @@
+{
+	"subject" : "Programmer",
+	"columns" : [{
+			"key" : "languages",
+			"type" : "categorical",
+			"goal" : "min",
+			"full_name" : "Languages",
+			"is_objective" : true,
+			"range" : ["Java", "C++", "GO", "Swift", "pearl", "python"],
+			"preference" : ["Java", "C++", "GO", "Swift", "pearl", "python"]
+		}, {
+			"key" : "certificate",
+			"type" : "text",
+			"goal" : "max",
+			"full_name" : "Certificate",
+			"is_objective" : false
+		}, {
+			"key" : "degree",
+			"type" : "text",
+			"goal" : "max",
+			"full_name" : "Degree",
+			"is_objective" : true
+		}, {
+			"key" : "patience",
+			"type" : "categorical",
+			"goal" : "max",
+			"full_name" : "Patience",
+			"is_objective" : true,
+			"range" : ["High", "Medium", "Low"],
+			"preference" : ["High", "Medium", "Low"]
+		}, {
+			"key" : "passion",
+			"type" : "categorical",
+			"goal" : "max",
+			"full_name" : "Passion",
+			"is_objective" : true,
+			"range" : ["High", "Medium", "Low"],
+			"preference" : ["High", "Medium", "Low"]
+		}
+	],
+	"subject" : "Programmer",
+	"options" : [{
+			"key" : " 1",
+			"name" : "A",
+			"values" : {
+				"languages" : "Java",
+				"certificate" : "Sun Certified Java Programmer",
+				"degree" : "Bachelor in Computer Science",
+				"patience" : "High",
+				"passion" : "High"
+			},
+		"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Samsung_GALAXY_S4_zoom_%28White%29.jpg/800px-Samsung_GALAXY_S4_zoom_%28White%29.jpg'/> <a title='Photo by Samsung Belgium (Flickr: GALAXY S4 zoom (1)) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_GALAXY_S4_zoom_(White).jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "2",
+			"name" : "B",
+			"values" : {
+				"languages" : "python",
+				"certificate" : "",
+				"degree" : "Master in Computer Science",
+				"patience" : "Low",
+				"passion" : "Medium"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "3",
+			"name" : "C",
+			"values" : {
+				"languages" : "Java, C++",
+				"certificate" : "",
+				"degree" : "Master in Computer Science",
+				"patience" : "High",
+				"passion" : "Medium"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "4",
+			"name" : "D",
+			"values" : {
+				"languages" : "python",
+				"certificate" : "",
+				"degree" : "Master in Computer Science",
+				"patience" : "High",
+				"passion" : "Medium"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}, {
+			"key" : "5",
+			"name" : "E",
+			"values" : {
+				"languages" : "GO",
+				"certificate" : "",
+				"degree" : "",
+				"patience" : "Low",
+				"passion" : "Medium"
+			},
+	"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+		}
+	]
+}
